@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    background-color: #322e46;
+    margin :auto;
+}
+
+header {
+    font-size: 4em;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#e6a255, #322e46);
+}
+
+h1 {
+    font-size: 2em;
+    color: #e6a255;
+    text-align: center;
+}
+    
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    color: white;
+}
+    
+.form-inscription,
+.form-connexion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.form-column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+    
+input {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+}
+    
+label {
+    margin-bottom: 10px;
+}
+    
+input[type='submit'] {
+    width: 200px;
+    margin:auto;
+    display: inline-block;
+    background: linear-gradient(#e6a255, #322e46);
+    color: black;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 1.2em;
+}
+
+.submit:hover {
+  background: linear-gradient(#322e46, #e6a255);
+  text-decoration: none;
+}
